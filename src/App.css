@@ -1,16 +1,24 @@
 .App {
   text-align: center;
+  font-family: 'PT Serif', serif;
+
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
+  border-radius: 50px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin forwards 3s backwards;
   }
+}
+
+p {
+  font-size: 20pt;
+  font-weight: 400;
 }
 
 .App-header {
@@ -30,9 +38,9 @@
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+    transform: scale(0.7)
   }
   to {
-    transform: rotate(360deg);
+    transform: scale(3);
   }
 }

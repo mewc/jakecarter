@@ -1,22 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './jtwc.png';
 import './App.css';
+import { GrLinkedin } from 'react-icons/gr';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h3>
+          Jake Carter
+        </h3>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Marketing Professional
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.linkedin.com/in/jtwcarter/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          <GrLinkedin />
         </a>
       </header>
     </div>
